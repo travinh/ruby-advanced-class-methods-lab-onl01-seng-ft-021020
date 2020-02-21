@@ -31,12 +31,12 @@ class Song
   end
   
   def self.find_by_name(name)
-      @@all.include?(name)
-      index = @@all.index(name)
-    
-      index
-    else
-      nil
+    @all.each do |song|
+      if song.name == name 
+        song 
+      else 
+        nil
+      end
     end
   end
 
