@@ -29,5 +29,7 @@ class Song
     @@all << song 
     song
   end
+  
+  def find_b
 
 end
