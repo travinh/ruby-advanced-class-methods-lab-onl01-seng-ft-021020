@@ -70,7 +70,7 @@ class Song
     
   end
   
-  def self.create_from_filename(name)
+  def self.create_from_filename(string)
     array = string.split(" - ")
     array[1] = array[1].split(".")
     array = array.flatten
