@@ -52,7 +52,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.each.sort_by { |name| 
+    @@all.each.sort_by { |name| name}
   end
 
 end
