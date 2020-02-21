@@ -63,13 +63,25 @@ class Song
     song = self.new 
     song.name = array[1]
     song.artist_name = array[0]
-    @@all << song
+    #@@all << song
     song
     
     
     
   end
   
-  def 
+  def create_from_file(name)
+    array = string.split(" - ")
+    array[1] = array[1].split(".")
+    array = array.flatten
+    
+    song = self.new 
+    song.name = array[1]
+    song.artist_name = array[0]
+    song.save
+    song
+    
+    
+  end
 
 end
