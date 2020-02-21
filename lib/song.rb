@@ -53,8 +53,11 @@ class Song
   
   def self.alphabetical
     @@all.each.sort_by { |song| song.name}
-    
-    
+  end
+  
+  def self.new_from_filename(name)
+    array = name.split("-.")
+    array
   end
 
 end
