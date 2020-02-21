@@ -31,13 +31,13 @@ class Song
   end
   
   def self.find_by_name(name)
-    if @@all.include?(name)
-      index = @@all.index(name)
+      @@all.include?(name)
+    #   index = @@all.index(name)
     
-      index
-    else
-      nil
-    end
+    #   index
+    # else
+    #   nil
+    # end
   end
 
 end
