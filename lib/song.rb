@@ -45,6 +45,7 @@ class Song
     
     if return_val == nil 
       return_val = create_by_name(name)
+    end 
     
     return_val
     
