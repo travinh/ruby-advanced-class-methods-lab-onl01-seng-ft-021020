@@ -58,11 +58,13 @@ class Song
   def self.new_from_filename(string)
     array = string.split(" - ")
     array[1] = array[1].split(".")
-    array.flatten
+    array = array.flatten
     
     song = self.new 
     song.name = array[0]
     song.artist_name = array[1]
+    
+    song
     
     
   end
