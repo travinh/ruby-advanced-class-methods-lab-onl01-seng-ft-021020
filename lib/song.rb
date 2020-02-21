@@ -53,6 +53,8 @@ class Song
   
   def self.alphabetical
     @@all.each.sort_by { |name| name}
+    
+    
   end
 
 end
