@@ -33,7 +33,7 @@ class Song
   def self.find_by_name(name)
       @@all.include?(name)
     #   index = @@all.index(name)
-    
+      @@all
     #   index
     # else
     #   nil
