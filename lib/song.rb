@@ -32,7 +32,9 @@ class Song
   
   def find_by_name(name)
     if @@all.include?(name)
-      
+      song= @@all[@@all.index(name)]
+    else
+      nil
   end
 
 end
