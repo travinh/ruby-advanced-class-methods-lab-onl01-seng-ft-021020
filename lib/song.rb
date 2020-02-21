@@ -35,6 +35,7 @@ class Song
       song= @@all[@@all.index(name)]
     else
       nil
+    end
   end
 
 end
