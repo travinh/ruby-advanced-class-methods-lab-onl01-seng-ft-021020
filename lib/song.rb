@@ -34,7 +34,7 @@ class Song
     if @@all.include?(name)
       index = @@all.index(name)
       song= @@all[index]
-      song
+      index
     else
       nil
     end
