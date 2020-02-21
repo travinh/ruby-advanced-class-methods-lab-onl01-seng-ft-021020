@@ -30,6 +30,9 @@ class Song
     song
   end
   
-  def find_b
+  def find_by_name(name)
+    if @@all.include?(name)
+      
+  end
 
 end
