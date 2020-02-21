@@ -50,5 +50,7 @@ class Song
     return_val
     
   end
+  
+  def self
 
 end
