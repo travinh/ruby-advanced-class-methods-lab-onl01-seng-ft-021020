@@ -60,11 +60,12 @@ class Song
     array[1] = array[1].split(".")
     array = array.flatten
     
-    song = self.new 
-    song.name = array[0]
-    song.artist_name = array[1]
-    @@all << song
-    song
+    puts array
+    # song = self.new 
+    # song.name = array[0]
+    # song.artist_name = array[1]
+    # @@all << song
+    
     
     
   end
