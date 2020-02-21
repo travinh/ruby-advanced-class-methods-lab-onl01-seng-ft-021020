@@ -57,7 +57,8 @@ class Song
   
   def self.new_from_filename(string)
     array = string.split(" - ")
-    array << array[1].split()
+    array[1] << array[1].split(".")
+    array.flattern
   end
 
 end
