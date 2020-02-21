@@ -47,6 +47,14 @@ class Song
         return_val = song
       end
     end
+    
+    song = self.new 
+    song.name = name 
+    @@all << song
+    return_val = song 
+    
+    return_val
+    
   end
 
 end
