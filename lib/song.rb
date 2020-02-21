@@ -59,6 +59,7 @@ class Song
     array = string.split(" - ")
     array[1] = array[1].split(".")
     array.flatten
+    
   end
 
 end
